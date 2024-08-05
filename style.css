@@ -40,25 +40,19 @@ p {
     font-size: 20px;
 }
 
-.cool-button {
-    background: linear-gradient(45deg, #6a11cb, #2575fc);
+.spotify-button {
+    background-color: #1DB954; /* Spotify green */
+    width: 100px;
     border: none;
-    border-radius: 30px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
     color: white;
     cursor: pointer;
     font-size: 16px;
-    padding: 15px 30px;
+    padding: 10px 20px;
     text-transform: uppercase;
-    transition: background 0.3s ease, transform 0.2s ease;
+    transition: background-color 0.3s ease;
 }
 
-.cool-button:hover {
-    background: linear-gradient(45deg, #2575fc, #6a11cb);
-    transform: translateY(-2px);
-}
-
-.cool-button:active {
-    transform: translateY(0);
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+.spotify-button:hover {
+    background-color: #1ed760; /* Lighter green on hover */
 }
