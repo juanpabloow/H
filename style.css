@@ -3,8 +3,13 @@
     font-size:x-large
 }
 
+.body-one {
+    background-color: rgb(31, 30, 30);
+}
+
 .title {
-    text-align: center
+    text-align: center;
+    color: white;
 }
 
 .two {
